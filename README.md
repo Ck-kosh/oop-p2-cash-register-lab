@@ -42,6 +42,7 @@ Cash Register
 
 ### Task 3: Develop, Test, and Refine the Code
 
+
 #### Step 1: Git Feature Branch
 
 * Create a feature branch for your work using git.
@@ -76,13 +77,13 @@ Cash Register
 * apply_discount()
   * Apply discount as percentage off from total
   * Remove the last item of previous_transaction from array
-    * Ensure price reflects correctly
-    * Ensure items reflects correctly
+  * Ensure price reflects correctly
+  * Ensure items reflects correctly
   * If no transactions in array print “There is no discount to apply.”
 * void_last_transaction()
   * Remove the last item of previous_transaction from the array.
-    * Ensure the price reflects correctly.
-    * Ensure items reflect correctly.
+  * Ensure the price reflects correctly.
+  * Ensure items reflect correctly.
   * If no transactions are in the array, print “There is no transaction to void.”
 
 #### Step 5: Push feature branch and open a PR on GitHub
@@ -99,9 +100,9 @@ Cash Register
 Best Practice documentation steps:
 
 * Add comments to code to explain purpose and logic
-  * Clarify intent / functionality of code to other developers
-  * Add screenshot of completed work included in Markdown in README.
-  * Update README text to reflect the functionality of the application following https://makeareadme.com. 
+* Clarify intent / functionality of code to other developers
+* Add screenshot of completed work included in Markdown in README.
+* Update README text to reflect the functionality of the application following https://makeareadme.com. 
 * Delete any stale branches on GitHub
 * Remove unnecessary/commented out code
 * If needed, update git ignore to remove sensitive data

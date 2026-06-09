@@ -86,7 +86,7 @@ class CashRegister:
         self.total -= price * quantity
         self.total = round(self.total, 2)
 
-        # remove the last added item names for that transaction
+        # remove  item names transaction
         for _ in range(quantity):
             if item in self.items:
                 self.items.remove(item)
